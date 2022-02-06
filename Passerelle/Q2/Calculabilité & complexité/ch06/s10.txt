@@ -1,0 +1,18 @@
+1. Pourquoi se focaliser sur la complexité dans le pire des cas ?
+2 raisons: - pratique (plus facile à calculer que le cas moyen)
+	   - théorique : sûreté borne supérieure
+
+2. Si complexité algo O(n^5), possible d'avoir O(1) pour certaines données?
+2 réponses:
+1) O(n^5) borne -> peut-être aussi O(1)
+2) Θ(n^5) -> certaines données peuvent avoir un comportem- plus rapide
+
+3. Θ(n^2) ordre (exact) de complexité d'un algo
+- Possible d'avoir O(n^3)?  oui car O(n^2) inclus dans O(n^3)
+- O(n) ? non
+- Exécution en O(n) pour une donnée particulière de longueur n ? Oui 
+
+4. Si problème pratiquement faisable, est-on assuré de pouvoir obtenir un résultat pour des données de taille raisonnable?
+
+5. Si pb intrinsèquement complexe, peut-on imaginer qu'un nouveau modèle de calculabilité permettrait de rendre ce problème pratiquement faisable?
+Non -> s'il existe algo poly en java, il existe algo poly en autre modèle de calculabilité

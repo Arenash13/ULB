@@ -1,0 +1,8 @@
+api rest express js
+
+se faire passer pour employé (steal creds) pour s'octroyer des privilèges -> créer site local qui s'occupera de la partie admin + 2FA employé 
+se faire passer pour client privilégié (steal creds) -> 2FA client privilégié
+simple http authentication -> JWT token based authentication
+voler le token par csrf -> limiter le token à quelques minutes pour mitiger le risque (+token de reconnexion)
+accéder à l'API et tenter de dump des informations -> sanitise toutes les entrées clients + accepter uniquement le site comme client et le data broker
+envoyer des informations au data broker -> sanitise les entrées liées au data broker
